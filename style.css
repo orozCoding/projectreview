@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+   
+   
+    background-color: white;
+}
+
+#img {
+    
+    min-width: auto;
+    min-height: auto;
+    max-width: auto;
+}
+
+#img-div img {
+    flex-shrink: 1;
+    min-width: auto;
+    min-height: auto;
+    max-width: 100%;
+}
+
+#img-caption {
+    flex-shrink: 1;
+    flex-basis: auto;
+    text-align:center;
+}
+
+#tribute-info {
+    padding: 50px;
+    padding-top: 20px;
+}
+
+a {
+    font-size: 20px;
+}
